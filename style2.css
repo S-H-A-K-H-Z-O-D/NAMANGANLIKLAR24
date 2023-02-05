@@ -1,0 +1,101 @@
+header{
+    background-color:#F6F6F9;
+    padding: 50px 100px;
+}
+
+nav{
+    background-color:#F6F6F9;
+    padding: 0 100px;
+    padding-bottom: 30px;
+}
+
+.section3{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 15px;
+}
+
+.words-of-president >:nth-child(1){
+    font-weight: bolder;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+
+.words-of-president >:nth-child(2){
+    padding: 10px 0;
+}
+
+.words-of-president >:nth-child(3){
+    padding: 10px 0;
+}
+
+.words-of-president >:nth-child(4){
+    padding: 10px 0;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.words-of-president >:nth-child(5){
+    padding: 10px 0;
+}
+
+.words-of-president >:nth-child(6){
+    padding: 10px 0;
+}
+
+.words-of-president >:nth-child(7){
+    padding: 10px 0;
+}
+
+.words-of-president >:nth-child(8){
+    padding: 10px 0;
+}
+
+.pic-of-president{
+    width: 100%;
+}
+
+.section-3{
+    border-bottom: #EBEBEB 3px solid;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.section-3 >:nth-child(2){
+    font-size: 15px;
+    color: #7688A4;
+    margin: 5px 0;
+}
+
+.section-3 >:nth-child(1){
+    margin: 0;
+}
+
+.president-time{
+    display: flex;
+    align-items: center;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 340px;
+    margin-top: 60px;
+}
+
+.btns >a{
+    text-decoration: none;
+}
+
+.popular-news{
+    margin-bottom: 20px;
+}
+
+.last-section{
+    padding: 0 100px;
+}
+
+.last-section >h4{
+    margin: 15px 0;
+}

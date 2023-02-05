@@ -1,0 +1,21 @@
+header{
+    background-color:#F6F6F9;
+    padding: 50px 100px;
+}
+
+nav{
+    background-color:#F6F6F9;
+    padding: 0 100px;
+    padding-bottom: 30px;
+}
+
+.covid-info{
+    margin-top: 30px;
+}
+
+/* section */
+
+.section3{
+    padding-left: 100px;
+    padding-right: 100px;
+}

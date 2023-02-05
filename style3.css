@@ -1,0 +1,209 @@
+header{
+    background-color:#F6F6F9;
+    padding: 50px 100px;
+}
+
+nav{
+    background-color:#F6F6F9;
+    padding: 0 100px;
+    padding-bottom: 30px;
+}
+
+.covid-info{
+    margin-top: 30px;
+}
+
+/* section */
+
+.section3{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.section{
+    padding: 0 100px;
+    margin: 30px 0;
+}
+
+.sectionParts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sectionPart1{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionPart1 >:nth-child(1){
+    width: 450px;
+    margin: 10px 0;
+    padding: 8px;
+    background: #F1F1F1;
+    border: 2px solid rgba(28, 51, 93, 0.3);
+    border-radius: 5px;
+}
+
+.sectionPart1 :nth-child(1):focus{
+    outline: none;
+}
+
+.sectionPart1 >:nth-child(2){
+    margin: 10px 0;
+    padding: 8px;
+    background: #F1F1F1;
+    border: 2px solid rgba(28, 51, 93, 0.3);
+    border-radius: 5px;
+}
+
+.sectionPart1 :nth-child(2):focus{
+    outline: none;
+}
+
+.sectionPart1 >input:nth-child(3){
+    margin: 10px 0;
+    padding: 8px;
+    background: #F1F1F1;
+    border: 2px solid rgba(28, 51, 93, 0.3);
+    border-radius: 5px;
+}
+
+.sectionPart1 :nth-child(3):focus{
+    outline: none;
+}
+
+.sectionPart1 :nth-child(4){
+    margin: 10px 0;
+    padding: 8px;
+    background: #F1F1F1;
+    border: 2px solid rgba(28, 51, 93, 0.3);
+    border-radius: 5px;
+}
+
+.sectionPart1 :nth-child(4):focus{
+    outline: none;
+}
+
+.sectionPart1 :nth-child(5){
+    margin: 10px 0;
+    padding: 8px;
+    height: 200px;
+    background: #F1F1F1;
+    border: 2px solid rgba(28, 51, 93, 0.3);
+    border-radius: 5px;
+}
+
+.sectionPart1 :nth-child(5):focus{
+    outline: none;
+}
+
+.passw{
+    width: 180px;
+    padding: 8px;
+    background: #F1F1F1;
+    border: 2px solid rgba(28, 51, 93, 0.3);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.fileUpload{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: rgba(28, 51, 93, 0.3) 2px solid;
+    padding: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #888888;
+    font-size: 14px;
+    font-weight: 100;
+    width: 180px;
+    background-color: #F1F1F1;
+    margin-top: 10px;
+}
+
+.fileUpload >img{
+    padding-left: 7px;
+}
+
+.form-btn{
+    padding: 7px 0;
+    width: 180px;
+    border-radius: 5px;
+    background: #295093;
+    border: 2px solid rgba(40, 81, 147);
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.form-btn:hover{
+    background-color: #ffffff;
+    color: rgba(40, 81, 147);
+}
+
+.sectionPart2{
+    height: fit-content;
+    border: 2px solid #BCC3CD;
+    border-radius: 5px;
+    padding: 10px;
+    width: 550px;
+    box-shadow: -8px 8px 5px #BCC3CD;
+}
+
+.sectionPart2 >h3{
+    display: flex;
+    justify-content: flex-end;
+    color:#295091;
+}
+
+.sectionPart2 >:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: #888888;
+}
+
+.sectionPart2 >:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    color: #888888;
+}
+
+.sectionPart2 >:nth-child(4){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    color: #888888;
+}
+
+.sectionPart2 >:nth-child(5){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    color: #888888;
+}
+
+.telegram-icon{
+    display: flex;
+    align-items: center;
+    background: #295091;
+    border-radius: 5px;
+    padding: 7px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.telegram-icon >img{
+    padding-right: 5px;
+}
